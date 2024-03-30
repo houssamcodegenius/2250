@@ -16,15 +16,15 @@
         <nav class="navbar">
             <a class="logo" href="#">CITYGYM</a>
             <ul class="navlinks">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Location</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="hero-section">
+        <section id="home" class="hero-section">
             <div class="content">
                 <h1>Get fit, get strong, get CITYGYM. Join us Today!</h1>
                 <p>Unleash your potential at CITYGYM, where fitness meets community. Join us for personalized training, dynamic classes, and a journey to a healthier, stronger you.</p>
@@ -35,7 +35,7 @@
             </div>
         </section>
 
-        <section class="about-section">
+        <section id="about" class="about-section">
             <h2>About us</h2>
             <p>Welcome to CityGym, your premier destination for fitness and well-being. At CityGym, we are dedicated to helping our members achieve their fitness goals and lead a healthier lifestyle.</p>
             <p>Our state-of-the-art facilities offer a wide range of equipment and classes, suitable for individuals of all fitness levels. Whether you're looking to build muscle, improve cardiovascular health, or simply stay active, we have something for everyone.</p>
@@ -44,12 +44,71 @@
             <p>Visit our location to get started on your fitness journey. We can't wait to see you at CityGym!</p>
         </section>
 
-        <section class="location-section">
+        <section id="location" class="location-section">
             <h2>Our location</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d367759.22108361404!2d-118.27931313840747!3d33.69689632782301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd214e0701955b%3A0x5e27d116f94e5379!2sCity%20Gym!5e0!3m2!1sen!2sma!4v1711727562445!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Connect With Us</h2>
+            <p>We would love to respond to your queries. Feel free to get in touch with us.</p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Send your request</h3>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="John Doe">
+                            </div>
+                            <div class="input-group">
+                                <label>Phone</label>
+                                <input type="text" placeholder="+1 827 678 8994">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="johndoe@gmail.com">
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" placeholder="Your Subject">
+                            </div>
+                        </div>
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h3>Reach us</h3>
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>citygym@gmail.com</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+1 827 678 8994</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>Adress</td>
+                            <td>1600 Palm Ave, Huntington Beach,<br>
+                            CA 92648, United States</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>Copyright © 2024 CityGym. All Rights Reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
     
